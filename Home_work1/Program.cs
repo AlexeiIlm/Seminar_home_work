@@ -44,6 +44,27 @@ Console.WriteLine(max);
 // Задача 3: Напишите программу, которая на вход принимает число и выдаёт, 
 // является ли число чётным (делится ли оно на два без остатка).
 
+
+Console.Write("input even number: ");
+int num = Convert.ToInt32(Console.ReadLine());
+
+int result = num;
+
+if (num%2==0)
+
+{
+    Console.WriteLine(" even number");
+}
+else 
+{
+    Console.WriteLine(" odd number");
+}
+
+
+
+// Задача 4: Напишите программу, которая на вход принимает число (N), 
+// а на выходе показывает все чётные числа от 1 до N.
+
 /*
 Console.Write("input even number: ");
 int num = Convert.ToInt32(Console.ReadLine());
@@ -60,5 +81,4 @@ else
 {
     Console.WriteLine(" odd number");
 }
-
 */
