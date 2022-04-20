@@ -44,3 +44,21 @@ Console.WriteLine(max);
 // Задача 3: Напишите программу, которая на вход принимает число и выдаёт, 
 // является ли число чётным (делится ли оно на два без остатка).
 
+/*
+Console.Write("input even number: ");
+int num = Convert.ToInt32(Console.ReadLine());
+
+int result = num;
+int num2 = 2;
+
+if (result == num/num2 )
+
+{
+    Console.WriteLine(" even number");
+}
+else 
+{
+    Console.WriteLine(" odd number");
+}
+
+*/
